@@ -1,0 +1,58 @@
+@font-face {
+  font-family: font;
+  src: url('fonts/Jenfar.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: font2;
+  src: url('fonts/superchargelaser.ttf') format('truetype');
+}
+
+body {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+h1 {
+  color: #ff0000;
+  font-family: font2;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nota {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  word-wrap: break-word;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  position: relative;
+}
+
+.data {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2px;
+  margin-right: 10px;
+  color: yellow;
+}
+
+footer {
+  font-family: font;
+  color: #fff;
+  padding: 100px;
+  font-size: 40px;
+}
+
